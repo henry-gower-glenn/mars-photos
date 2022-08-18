@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	color: #FFF;
+	align-items: center;
+	justify-content: center;
+
+	& > .title {
+		font-size: 3rem;
+		padding: 32px;
+	}
+
+	& > .cameraSelecter {
+		padding: 8px;
+		margin: 8px;
+	}
+
+	& > div {
+
+		& > .dateSelecter {
+			padding: 8px;
+			margin: 8px;
+		}
+	}
+}
